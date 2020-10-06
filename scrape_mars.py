@@ -7,7 +7,7 @@ import requests
 import os
 
 # chromedriver 
-executable_path = {'executable_path': 'C:\\Users\\maham\\Desktop\\bin\\chromedriver.exe'}
+executable_path = {'executable_path': 'C:\\Users\\bin\\chromedriver.exe'}
 browser = Browser('chrome', **executable_path, headless = False)
 
 def scrape():
